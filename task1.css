@@ -1,0 +1,303 @@
+.main {
+  background-image: url("photo.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 1100px;
+}
+
+
+.menu
+{   height: 35px;
+    width:35px;
+    background-color: black;
+    border-radius: 20%;
+    box-shadow:2.4px 2.4px 2.4px white;
+    position: fixed;
+  
+}
+#items{
+  
+display:none;
+position: fixed;
+
+
+}
+.in{
+  width:200px;
+  height:20px;
+}
+
+.newitem{
+  height: 300px;
+  width:178px;
+  color:white;
+ display:inline-flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ margin-top: 50px;
+}
+
+
+
+/* .heading{
+  color: white;
+  font-size: 100px;
+  position: relative;
+  left:10px;
+  top:50px;
+  text-align: right;
+ 
+} */
+#right-align-text {
+  position:absolute;
+  top: 60px;
+  right: 20px;
+  font-size: 94px;
+  color:whitesmoke;
+   font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal; 
+  z-index: 1001;
+  /* transition: opacity 2s ease-in; */
+  animation: textmove 2s ease-in-out; 
+
+}
+/* #right-align-text:active{
+  opacity: 1;
+} */
+
+@keyframes textmove {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#right-align-text2{
+  position:absolute;
+  top: 160px;
+  right: 20px;
+  font-size: 30px;
+  color:rgb(174, 169, 169);
+   /* font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;  */
+  z-index: 1001;
+  animation: textmove 2s ease-in-out; 
+
+}
+
+#picture3{
+  position: absolute;
+  top:250px;
+  left:220px;
+
+  height:200px;
+  width: 200px;
+background-image: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2147488298/images/q9nVJnecQ8S0xtIqu0DJ_6672_hair_2.JPG");
+  background-size: cover;
+  animation: pic3 10s ease-in-out infinite alternate,op2 2.6s linear 1 normal;
+}
+#picture1{
+  position: absolute;
+  top:80px;
+  left:200px;
+  height:170px;
+  width: 230px;
+  background-image: url("https://images.unsplash.com/photo-1516357231954-91487b459602?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHx8MA%3D%3D");
+  background-size: cover;
+  animation: pic1 13s ease-in infinite alternate,op2 2.9s linear 1 normal;
+}
+#picture2{
+  position: absolute;
+  top:60px;
+  left:410px;
+
+  height:200px;
+  width: 200px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_d_ZqicLUKSKdneAdNRQn5GgeBBNHwRrMmrwwFYK8oA&s");
+  background-size: cover;
+  animation: pic2 5s ease-in infinite alternate,op2 2.7s linear 1 normal;
+ 
+}
+
+#picture5{
+  position: absolute;
+  top:250px;
+  left:420px;
+  
+  height:170px;
+  width: 270px;
+  background-image: url("https://i.pinimg.com/236x/b4/69/37/b4693779ab0502d41b662c6d65bd4176.jpg");
+  background-size: cover;
+  animation: pic5 12s ease-in infinite alternate,op2 2.9s linear 1 normal;
+}
+#picture4{
+  position: absolute;
+  top:210px;
+  left:350px;
+
+  height:170px;
+  width: 200px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdYhtIpvjH78ZkOh2BP4wkk-S2hg5Ewqwusrh-NigWlg&s");
+  background-size: cover;
+  animation: pic4 10s ease-in-out infinite alternate,op2 2s linear 1 normal;
+ 
+}
+
+
+
+
+@keyframes pic4 
+{ 0%{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdYhtIpvjH78ZkOh2BP4wkk-S2hg5Ewqwusrh-NigWlg&s") ;}
+  40%{background-image:url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/06/2-14.jpg") ;}
+  70%{background-image:url("https://photographylife.com/wp-content/uploads/2022/11/White_Breasted_Nuthatch_jpolak.jpg") ;}
+  100%{background-image:url("https://i.pinimg.com/736x/41/4a/3d/414a3d6554c4c44784931510c14cd6e7.jpg") ;}
+}
+
+
+@keyframes pic1 {
+  0%{background-image:url("https://images.unsplash.com/photo-1516357231954-91487b459602?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHx8MA%3D%3D") ;}
+  40%{background-image:url("https://images.shiksha.com/mediadata/images/articles/1568193656phpmWI2xq.jpeg") ;}
+ 70%{background-image:url("https://i.pinimg.com/originals/65/b7/43/65b743cb3fcf0e32690826bfefc6a63c.jpg") ;}
+  100%{background-image:url("https://www.adorama.com/alc/wp-content/uploads/2021/04/photography-camera-learning-feature.jpg") ;}
+}
+
+
+@keyframes pic2 {
+  0%{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_d_ZqicLUKSKdneAdNRQn5GgeBBNHwRrMmrwwFYK8oA&s") ;}
+  40%{background-image:url("https://media.istockphoto.com/id/175923813/photo/mountain-river.webp?b=1&s=170667a&w=0&k=20&c=_ouEKftAh7iZ2BymsN6XZV4gyHE-U_zHgLHuENTglKc=") ;}
+ 70%{background-image:url("https://images.unsplash.com/photo-1577051777393-ed3603f7fe11?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGlsbCUyMHJpdmVyfGVufDB8fDB8fHww") ;}
+  100%{background-image:url("https://cdn.pixabay.com/photo/2016/08/12/20/14/river-1589616_640.jpg") ;}
+}
+
+@keyframes pic3 {
+  0%{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJxmcY709x_xrIWZ5a9RLx_aYSLALJpdIfTs4oOaChg&s") ;}
+  40%{background-image:url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2147488298/images/q9nVJnecQ8S0xtIqu0DJ_6672_hair_2.JPG") ;}
+ 70%{background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMU4MFcqUYbr4ot2ZConGnZoHqcbBnKSxVBW1SqRwvdA&s") ;}
+  100%{background-image:url("https://64.media.tumblr.com/88ff81bb39858f67e87c4d8f2f320aba/tumblr_inline_p6b49qTZrw1vy3hhb_540.jpg") ;}
+}
+
+@keyframes pic5 {
+  0%{background-image:url("https://i.pinimg.com/236x/b4/69/37/b4693779ab0502d41b662c6d65bd4176.jpg") ;}
+  40%{background-image:url("https://iso.500px.com/wp-content/uploads/2014/06/20483.jpg") ;}
+ 70%{background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Cool-Photography-Backgrounds-Free-Download.jpg") ;}
+  100%{background-image:url("https://photographyreel.com/file/images/12-2015/5-amazing-photography.jpg") ;}
+}
+
+
+@keyframes op2 {
+  from{opacity: 0;}
+to{opacity: 1;}  
+}
+.navbar {
+  position: fixed;
+  top: 0px;
+  right:0.2px;
+ 
+  /* width: 100%; */
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  z-index: 1500;
+  transition: background-color 0.3s;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color:rgb(239, 111, 111);
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-item a:hover {
+  color: gold;
+}
+
+.scrolled {
+ background-color: rgb(75, 62, 62);
+ 
+}
+.welcome-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  position: absolute;
+top:450px;
+right:300px;
+animation:op2 3.5s linear 1 normal;
+}
+
+.welcome-container h1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.welcome-container p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* Add this to your existing CSS file */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 20px;
+ position: relative;
+  width: 200vh;
+  top:1000px;
+  bottom: 0.2;
+  left:0px;
+ 
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.social-media-icons {
+  margin: 10px 0;
+}
+
+.social-media-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-media-icons a:hover {
+  color: #ff4500;
+}
